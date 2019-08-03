@@ -1,0 +1,55 @@
+/*====================================
+Menu - NAVBAR
+==================================== */
+
+.navbar{
+    background: black !important;
+}
+
+.dropdown{
+    border-radius:0;
+    border:0;
+}
+.dropdown-menu{
+    background: black;
+    border:0;
+    top:80%;
+    border-radius:0px 0px 5px 5px;
+}
+.dropdown-item:hover{
+    background: gray;
+    color:#fff;
+}
+.dropdown-menu a{
+    color:#fff;
+}
+.navbar .nav-item .nav-link{
+    color:#eee !important;
+
+}
+.navbar .nav-item .nav-link:hover .navbar .nav-item .nav-link{
+    color:red !important;
+
+}
+
+/*====================================
+Espaçamento
+===================================== */
+
+.espaco1{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.espaco2{
+     padding-right: 30px;
+ }
+
+.espaco3{
+    padding-right: 20px;
+}
+
+.espaco4{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}

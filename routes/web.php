@@ -12,5 +12,17 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
+
+Route::resource('categories','Registers\CategoriesController');
+
+Route::resource('products', 'Registers\ProductsController');
+
+Route::resource('customers', 'Registers\CustomersController');
+
+Route::resource('providers', 'Registers\ProvidersController');
+
+Route::resource('responsibilities', 'Registers\ResponsibilitiesController');
+
+Route::resource('employees', 'Registers\EmployeesController');
